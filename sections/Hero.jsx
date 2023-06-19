@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         <motion.button variants={zoomIn(1, 0.5)}>
           <a
-            href="./CV.pdf"
+            href="./Ahmed Saleh's Resume.pdf"
             className="download-btn bg-[--main-color] p-4 text-lg text-white rounded-lg font-medium inline-block"
             download="Ahmed Saleh's Resume"
           >
