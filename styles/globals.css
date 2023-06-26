@@ -48,7 +48,7 @@
   }
 
   .contact-input {
-    @apply w-full bg-[--color-gray] dark:placeholder:text-white dark:bg-[--main-color] 
+    @apply w-full mb-3 bg-[--color-gray] dark:placeholder:text-white dark:bg-[--main-color] 
     border-[--color-primary] outline-none focus:shadow-[inset_0_0_3px_1px_var(--color-primary)] rounded-md border-b-2;
     caret-color: var(--color-primary);
   }
