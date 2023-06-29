@@ -30,6 +30,7 @@ export default function ContactForm() {
           <motion.input
             variants={slideIn('up', 100, 0.4, 0.4)}
             required
+            autoComplete="true"
             type="text"
             id="name"
             value={name}
@@ -42,6 +43,7 @@ export default function ContactForm() {
           <motion.input
             variants={slideIn('up', 100, 0.7, 0.5)}
             required
+            autoComplete="true"
             type="email"
             id="email"
             value={email}

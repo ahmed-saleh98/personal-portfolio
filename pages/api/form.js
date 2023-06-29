@@ -10,7 +10,7 @@ export default async (req, res) => {
     to: TO_EMAIL,
     from: FROM_EMAIL,
     subject: 'Contact Form from :' + name,
-    text: `Name: ${name},/n Email: ${email}, /n Message: ${message}`,
+    text: `Name: ${name}, Email: ${email}, Message: ${message}`,
     html: `Name: ${name}, Email: ${email}, Message: ${message}`,
   };
   console.log(name, email, message, msg);
