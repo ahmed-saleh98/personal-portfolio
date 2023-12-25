@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: 'Car ShowCase',
+    livePreview: 'https://ams-car-showcase.vercel.app',
+    code: 'https://github.com/ahmed-saleh98/car-showcase',
+    image: './images/car-showcase.webp',
+  },
+  {
     title: 'Metaversus App',
     livePreview: 'https://metaversus-ams.vercel.app',
     code: 'https://github.com/ahmed-saleh98/metaversus',

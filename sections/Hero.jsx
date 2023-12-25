@@ -57,7 +57,6 @@ const Hero = () => {
         <motion.div variants={zoomIn(0.3, 0.5)} className="orange-obj" />
         <div className="overflow-hidden absolute w-full h-full">
           <motion.img
-            loading="lazy"
             variants={slideIn('up', 100, 0.2, 0.7)}
             src="./images/hero-avatar.webp"
             alt="hero-avatar"
