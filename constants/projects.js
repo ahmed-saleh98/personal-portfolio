@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: 'Dev Events App',
+    livePreview: 'https://ams-dev-event.vercel.app/',
+    code: 'https://github.com/ahmed-saleh98/dev-event',
+    image: './images/devevent.webp',
+  },
+  {
     title: 'Car ShowCase',
     livePreview: 'https://ams-car-showcase.vercel.app',
     code: 'https://github.com/ahmed-saleh98/car-showcase',
