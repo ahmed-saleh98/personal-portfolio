@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: 'Kanban App',
+    livePreview: 'https://kanban-board-ams.vercel.app/',
+    code: 'https://github.com/ahmed-saleh98/Kanban-Board',
+    image: './images/kanban.webp',
+  },
+  {
     title: 'Dev Events App',
     livePreview: 'https://ams-dev-event.vercel.app/',
     code: 'https://github.com/ahmed-saleh98/dev-event',
