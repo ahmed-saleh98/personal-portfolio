@@ -19,16 +19,21 @@ const ProjectCard = ({ project, i }) => {
         alt={project.title}
       />
       <h3 className="font-medium ml-3">{project.title}</h3>
+      {project.description && (
+        <p className="mx-3 text-sm opacity-80">{project.description}</p>
+      )}
       <div className="ml-3">
-        <a
-          className="text-white p-2 px-4 mr-4 inline-block bg-[--color-primary] 
+        {project.livePreview && (
+          <a
+            className="text-white p-2 px-4 mr-4 inline-block bg-[--color-primary] 
                 rounded-md hover:shadow-[0px_0px_5px_1px_var(--color-secondary)] transition-all"
-          href={project.livePreview}
-          target="_blank"
-        >
-          Live Preview
-          <GiWorld className="inline-block ml-1" />
-        </a>
+            href={project.livePreview}
+            target="_blank"
+          >
+            Live Preview
+            <GiWorld className="inline-block ml-1" />
+          </a>
+        )}
         <a
           className="text-white p-2 px-4 inline-block bg-[--main-color] 
                 rounded-md hover:shadow-[0px_0px_5px_1px_var(--color-secondary)] transition-all"
