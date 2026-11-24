@@ -18,7 +18,7 @@ const Hero = () => {
             variants={slideIn('up', 100, 0.4, 0.4)}
             className="text-xl font-medium"
           >
-            Alloha There, It's
+            Hi, I'm
           </motion.p>
         </div>
         <div className="overflow-hidden">
@@ -36,6 +36,15 @@ const Hero = () => {
           >
             a Front-End Developer
           </motion.h2>
+        </div>
+        <div className="overflow-hidden">
+          <motion.p
+            variants={slideIn('up', 100, 1.1, 0.4)}
+            className="text-lg font-medium max-w-md max-sm:text-center"
+          >
+            I build fast, accessible, SEO-friendly web apps with React and
+            Next.js.
+          </motion.p>
         </div>
         <motion.button variants={zoomIn(1, 0.5)}>
           <a
