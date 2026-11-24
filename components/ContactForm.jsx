@@ -30,9 +30,11 @@ export default function ContactForm() {
           <motion.input
             variants={slideIn('up', 100, 0.4, 0.4)}
             required
-            autoComplete="true"
+            autoComplete="name"
             type="text"
             id="name"
+            name="name"
+            aria-label="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Name"
@@ -43,9 +45,11 @@ export default function ContactForm() {
           <motion.input
             variants={slideIn('up', 100, 0.7, 0.5)}
             required
-            autoComplete="true"
+            autoComplete="email"
             type="email"
             id="email"
+            name="email"
+            aria-label="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
@@ -57,6 +61,8 @@ export default function ContactForm() {
             variants={slideIn('up', 100, 1, 0.7)}
             required
             id="message"
+            name="message"
+            aria-label="Your message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Type your message here"

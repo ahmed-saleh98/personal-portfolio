@@ -53,7 +53,7 @@
     caret-color: var(--color-primary);
   }
   .contact-input::placeholder {
-    font-size: 500;
+    font-weight: 500;
     color: var(--main-color);
   }
 }
