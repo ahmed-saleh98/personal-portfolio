@@ -47,7 +47,7 @@ const SocialLinks = () => {
             className="whatsapp"
             target="_blank"
             rel="noreferrer"
-            href="https://api.whatsapp.com/send?phone=+20 01273698284"
+            href="https://wa.me/201273698284"
           >
             <FaWhatsapp />
           </a>
