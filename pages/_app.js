@@ -7,8 +7,23 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Ahmed Saleh</title>
-        <meta name="description" content="Ahmed Saleh's Personal Portfolio" />
+        <title>Ahmed Saleh | Front-End Developer</title>
+        <meta
+          name="description"
+          content="Ahmed Saleh, a Front-End Developer with 4+ years of experience building accessible, performant, SEO-friendly web apps with React, Next.js, and Vue.js. Operations Team Leader at Hudl StatsBomb."
+        />
+        <meta property="og:title" content="Ahmed Saleh | Front-End Developer" />
+        <meta
+          property="og:description"
+          content="Front-End Developer with 4+ years of experience building accessible, performant, SEO-friendly web apps with React, Next.js, and Vue.js."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ahmedsaleh.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://ahmedsaleh.vercel.app/images/portfolio-image.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Script
         async
